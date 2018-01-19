@@ -16,4 +16,11 @@ void motor::berkendara(string kecepatan){
 int main (){
 	motor motorbalap, motormetic, motorbebek;
 	
+	motormetic.jumlhmotor = 250;
+	motormetic.merkmotor = "Suzuki";
+	motorbalap.jumlhmotor = 100;
+	motorbalap.merkmotor = "Yamaha";
+	motorbebek.jumlhmotor = 150;
+	motorbebek.merkmotor = "Honda";
+	
 }
