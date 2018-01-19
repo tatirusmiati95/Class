@@ -29,4 +29,20 @@ int main (){
 	
 	motorbalap.berkendara("180km/jam");
 	
+	cout << ""<<endl;
+	
+	cout << "Motor Metic : "<<endl;
+	cout << "Jumlah Motor: "<<motormetic.jumlhmotor<<" unit"<<endl;
+	cout << " Merk Motor : "<<motormetic.merkmotor<<endl;
+	
+	motormetic.berkendara("110km/jam");
+	
+	cout << ""<<endl;
+	
+	cout << "Motor Bebek : "<<endl;
+	cout << "Jumlah Motor: "<<motorbebek.jumlhmotor<<" unit"<<endl;
+	cout << " Merk Motor : "<<motorbebek.merkmotor<<endl;
+	
+	motorbebek.berkendara("80km/jam");
+	
 }
