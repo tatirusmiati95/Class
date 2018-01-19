@@ -14,5 +14,6 @@ void motor::berkendara(string kecepatan){
 	cout<< " Kecepatan Motor :"<< kecepatan << endl;
 }
 int main (){
-
+	motor motorbalap, motormetic, motorbebek;
+	
 }
