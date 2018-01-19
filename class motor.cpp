@@ -23,4 +23,10 @@ int main (){
 	motorbebek.jumlhmotor = 150;
 	motorbebek.merkmotor = "Honda";
 	
+	cout << "Motor Balap : "<<endl;
+	cout << "Jumlah Motor: "<<motorbalap.jumlhmotor<<" unit"<<endl;
+	cout << " Merk Motor : "<<motorbalap.merkmotor<<endl;
+	
+	motorbalap.berkendara("180km/jam");
+	
 }
